@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  docker-env:
+    build:
+      context: .
+    container_name: sasaplus1/docker-env
+    volumes:
+      - $HOME:/mnt/host
